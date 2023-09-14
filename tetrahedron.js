@@ -15,10 +15,10 @@ points.push( new THREE.Vector3( - 10, 0, 0 ) );
 points.push( new THREE.Vector3( 0, 10, 0 ) );
 points.push( new THREE.Vector3( 10, 0, 0 ) );
 points.push( new THREE.Vector3( -10, 0, 0 ) );
-points.push( new THREE.Vector3( 0, 0, 10 ) );
+points.push( new THREE.Vector3( 0, 5, 10) );
 points.push( new THREE.Vector3( 10, 0, 0 ) );
 points.push( new THREE.Vector3( 0, 10, 0) );
-points.push( new THREE.Vector3( 0, 0, 10) );
+points.push( new THREE.Vector3( 0, 5, 10) );
 
 
 
@@ -39,7 +39,5 @@ function animate() {
 
 	renderer.render( scene, camera );
 }
-
-animate()
 
 animate();
